@@ -1,4 +1,8 @@
+//requiring dependencies
+var path = require("path");
 var friends = require("../data/friends.js");
+
+//grabbing information/data
 
 module.exports = function (app) {
   app.get("/api/friends", function (req, res) {
