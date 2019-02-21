@@ -6,7 +6,7 @@ var path = require("path");
 var app = express();
 
 //locating por
-var port = process.env.PORT || 3030;
+var port = process.env.PORT || 8080;
 
 //app.use(bodyParser.urlencoded ({ extended: false}))
 
